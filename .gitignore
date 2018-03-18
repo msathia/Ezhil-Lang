@@ -1,16 +1,15 @@
-help/
-push_to_git.sh
-post_commit_ezhil.py
-MANIFEST
+3rd-party
+tscii2utf8
+tamilphonetic
+TODO
+misc/
+*.pkl
 *.py[cod]
+*.dat
+*.ods
+MANIFEST
 *~
-./website/lib
-./website/lib/*
-./web/ICONS/
-./web/ICONS/*
-./Notes
-./Notes/*
-ezhil_tests/names.txt
+*.*~
 # C extensions
 *.so
 
@@ -28,6 +27,7 @@ develop-eggs
 .installed.cfg
 lib
 lib64
+__pycache__
 
 # Installer logs
 pip-log.txt
@@ -44,5 +44,4 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
-ezhil_tests/ezhil_builtins_june2013.txt
-Notes/Rosetta
+/java/OpenTamil/nbproject/private/
